@@ -8,3 +8,6 @@ print(df[df['city']=='Delhi'])
 
 # FINDING DATA FROM CITY DELHI AND PRODUCT LAPTOP
 print(df[(df['city']=='Delhi') & (df['product']=='Laptop')])
+
+# FINDING DATA FROM CITY DELHI OR PRODUCT LAPTOP
+print(df[(df['city']=='Delhi') | (df['product']=='Laptop')])
