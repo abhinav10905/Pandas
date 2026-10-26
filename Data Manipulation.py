@@ -29,3 +29,6 @@ def a(x):
         return 4
 df['Value']=df['payment_method'].apply(a)
 print(df)
+
+# DELETING A ROW TEMPORARILY
+df.drop(index=3)
