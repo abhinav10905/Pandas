@@ -40,3 +40,7 @@ print(df)
 # DELETING A ROW PERMANENTLY
 df.drop(index=3,inplace=True)
 print(df)
+
+# DELETING A COLUMN PERMANENTLY
+df.drop(columns='Value',inplace=True)
+print(df)
