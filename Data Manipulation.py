@@ -32,3 +32,7 @@ print(df)
 
 # DELETING A ROW TEMPORARILY
 df.drop(index=3)
+
+# DELETING A ROW PERMANENTLY
+df.drop(index=3,inplace=True)
+print(df)
