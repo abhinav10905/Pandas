@@ -11,3 +11,7 @@ print(df[(df['city']=='Delhi') & (df['product']=='Laptop')])
 
 # FINDING DATA FROM CITY DELHI OR PRODUCT LAPTOP
 print(df[(df['city']=='Delhi') | (df['product']=='Laptop')])
+
+# ADDING A NEW COLUMN DOUBLE DISCOUNT
+df['Double Discount']=df['discount_pct']*2
+print(df)
