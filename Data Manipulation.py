@@ -44,3 +44,9 @@ print(df)
 # DELETING A COLUMN PERMANENTLY
 df.drop(columns='Value',inplace=True)
 print(df)
+
+# DELETING A ROW OR COLUMN USING AXIS 
+# axis 0 : row
+# axis 1 : column
+print(df.drop(1,axis=0))
+print(df.drop('Double Discount',axis=1))
