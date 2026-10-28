@@ -30,3 +30,6 @@ print(df['customer_rating'].max())
 print(df['customer_rating'].min())
 print(df['customer_rating'].mean())
 print(df['customer_rating'].std())
+
+# FINDING AVERAGE WTHOUT USING MEAN FUNCTION
+print((df['customer_rating'].sum())/(df['customer_rating'].count()))
