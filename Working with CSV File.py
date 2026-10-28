@@ -18,3 +18,6 @@ print(type(df['order_date'])) # AS WE HAVE JUST EXTRACTED ONE COLUMN, SO THE TYP
 # EXTRACTING MULTIPLE COLUMNS
 print(df[['order_date','city']]) # GIVES THE DATA PRESENT IN ANY PARTICULAR COLUMN
 print(type(df[['order_date','city']])) # AS WE HAVE EXTRACTED MORE THAN ONE COLUMN, SO THE TYPE WOULD BE DATAFRAME
+
+# FINDING TOTAL QUANTITY OF PRODUCTS
+print(df['quantity'].sum())
