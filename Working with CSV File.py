@@ -21,3 +21,6 @@ print(type(df[['order_date','city']])) # AS WE HAVE EXTRACTED MORE THAN ONE COLU
 
 # FINDING TOTAL QUANTITY OF PRODUCTS
 print(df['quantity'].sum())
+
+# COUNTING ORDERS FROM DIFFERENT CITIES
+print(df['city'].value_counts())
