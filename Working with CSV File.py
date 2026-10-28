@@ -27,3 +27,4 @@ print(df['city'].value_counts())
 
 # FINDING MAXIMUM, MINIMUM, AVERAGE and STANDARD DEVIATION CUSTOMER RATING
 print(df['customer_rating'].max())
+print(df['customer_rating'].min())
