@@ -24,3 +24,6 @@ print(df['quantity'].sum())
 
 # COUNTING ORDERS FROM DIFFERENT CITIES
 print(df['city'].value_counts())
+
+# FINDING MAXIMUM, MINIMUM, AVERAGE and STANDARD DEVIATION CUSTOMER RATING
+print(df['customer_rating'].max())
